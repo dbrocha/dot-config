@@ -1,0 +1,17 @@
+layout {
+    pane split_direction="vertical" {
+        pane edit="."
+        pane split_direction="horizontal" {
+            {
+                command python -m
+              }
+        }
+    }
+    pane size=1 borderless=true {
+        plugin location="zellij:status-bar"
+    }
+    pane_template name="python" {
+        command "python -m "
+        start_suspended true
+    }
+}
