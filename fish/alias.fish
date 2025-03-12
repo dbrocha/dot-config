@@ -11,6 +11,3 @@ abbr --add sfl sqlfluff lint
 
 # git
 abbr --add gaa "git add .; git commit -a -m \".\"; git push"
-
-# zellij
-zellij setup --generate-completion fish | source
