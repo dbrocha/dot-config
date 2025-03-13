@@ -12,4 +12,8 @@ set -gx SHELL (which fish)
 
 starship init fish | source
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+if test -e /home/linuxbrew/.linuxbrew/bin/brew:
+    styleeval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+end
+
+neofetch
