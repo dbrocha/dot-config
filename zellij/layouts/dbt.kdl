@@ -1,18 +1,18 @@
 layout {
     pane split_direction="vertical" {
-        pane edit="src/main.rs"
+        pane edit=""
         pane split_direction="horizontal" {
-            dbt { args "build --select X"; }
-            sqlfluff { args "fix"; }
-            sqlfluff { args "format"; }
+            pane
+            pane {
+              command "sqlfluff" {
+                args "fix"
+              }
+              size "15%"
+            }
         }
     }
     pane size=1 borderless=true {
         plugin location="zellij:status-bar"
-    }
-    pane_template name="dbt" {
-        command "dbt"
-        start_suspended true
     }
     pane_template name="sqlfluff" {
         command "sqlfluff"
