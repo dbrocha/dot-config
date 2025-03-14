@@ -11,9 +11,3 @@ set -x EDITOR nvim
 set -gx SHELL (which fish)
 
 starship init fish | source
-
-if test -e /home/linuxbrew/.linuxbrew/bin/brew:
-    styleeval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-end
-
-neofetch
