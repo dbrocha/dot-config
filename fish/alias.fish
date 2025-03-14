@@ -1,6 +1,10 @@
 alias ll "ls -la"
 # alias bat batcat
 alias k kubectl
+
+abbr va source .venv/bin/activate.fish
+abbr es envsource .env
+
 # dbt aliases
 abbr --add dbs dbt build --select
 abbr --add dbtyml --set-cursor "dbt run-operation generate_model_yaml --args '{"model_names": [\"%\"]}' -q > models/out.txt"
