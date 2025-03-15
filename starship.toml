@@ -4,10 +4,11 @@ format = """
 [](surface2)\
 $os\
 $username\
-[](bg:orange fg:surface2)\
+[](bg:peach fg:surface2)\
 $directory\
-[](fg:orange bg:green)\
+[](fg:peach bg:green)\
 $git_branch\
+$git_status\
 [](fg:green bg:teal)\
 $c\
 $rust\
@@ -94,12 +95,12 @@ RedHatEnterprise = "󱄛"
 
 [username]
 show_always = true
-style_user = "bg:surface2"
-style_root = "bg:surface2"
+style_user = "bg:surface2 fg:text"
+style_root = "bg:surface2 fg:text"
 format = '[ $user ]($style)'
 
 [directory]
-style = "fg:mantle bg:orange"
+style = "fg:mantle bg:peach"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -113,12 +114,12 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "bg:green"
+style = "bg:teal"
 format = '[[ $symbol $branch ](fg:base bg:green)]($style)'
 
 [git_status]
 style = "bg:teal"
-format = '[[($all_status$ahead_behind )](fg:base bg:orange)]($style)'
+format = '[[($all_status$ahead_behind )](fg:base bg:green)]($style)'
 
 [nodejs]
 symbol = ""
@@ -173,7 +174,7 @@ format = '[[ $symbol( $context) ](fg:#83a598 bg:color_bg3)]($style)'
 [time]
 disabled = false
 time_format = "%R"
-style = "bg:peach"
+style = "bg:purple"
 format = '[[  $time ](fg:mantle bg:purple)]($style)'
 
 [line_break]
