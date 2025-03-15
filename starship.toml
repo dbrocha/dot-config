@@ -4,9 +4,9 @@ format = """
 [](surface2)\
 $os\
 $username\
-[](bg:peach fg:surface2)\
+[](bg:yellow fg:surface2)\
 $directory\
-[](fg:peach bg:green)\
+[](fg:yellow bg:green)\
 $git_branch\
 $git_status\
 [](fg:green bg:teal)\
@@ -100,7 +100,7 @@ style_root = "bg:surface2 fg:text"
 format = '[ $user ]($style)'
 
 [directory]
-style = "fg:mantle bg:peach"
+style = "fg:mantle bg:yellow"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
