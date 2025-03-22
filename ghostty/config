@@ -1,2 +1,3 @@
 font-family=FiraCode Nerd Font Mono
 theme=Ghostty Default StyleDark
+quit-after-last-window-closed=true
