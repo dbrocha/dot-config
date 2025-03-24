@@ -1,3 +1,5 @@
 font-family=FiraCode Nerd Font Mono
 theme=Dracula+
 quit-after-last-window-closed=true
+clipboard-read=allow
+clipboard-write=allow
