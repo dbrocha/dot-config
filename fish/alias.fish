@@ -20,6 +20,3 @@ abbr --add sfl sqlfluff lint
 
 # git
 abbr --add gaa "git add .; git commit -a -m \".\"; git push"
-
-# zellij
-abbr za zellij attach
