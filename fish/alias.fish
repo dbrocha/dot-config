@@ -1,4 +1,4 @@
-alias ll "ls -la"
+alias ll "ls -lah"
 alias k kubectl
 
 abbr va source .venv/bin/activate.fish
