@@ -13,6 +13,7 @@ abbr --add dbtyml --set-cursor "dbt run-operation generate_model_yaml --args '{"
 abbr --add rcf ruff check --fix
 abbr --add rcfu ruff check --fix --unsafe-fixes
 abbr --add rf ruff format
+abbr --add ri ruff check --fix --select I
 
 # sqlfluff
 abbr --add sff sqlfluff fix

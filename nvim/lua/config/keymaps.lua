@@ -4,6 +4,9 @@ vim.keymap.set("n", "L", "$")
 vim.keymap.set("i", "kj", "<Esc>")
 vim.keymap.set("i", "jk", "<Esc>")
 
+vim.keymap.set("n", "<S-l>", ":bn<CR>")
+vim.keymap.set("n", "<S-h>", ":bp<CR>")
+
 vim.keymap.set({ "n", "x" }, "p", "<Plug>(YankyPutAfter)")
 vim.keymap.set({ "n", "x" }, "P", "<Plug>(YankyPutBefore)")
 vim.keymap.set({ "n", "x" }, "gp", "<Plug>(YankyGPutAfter)")
