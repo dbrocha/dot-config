@@ -40,17 +40,17 @@ color_red = '#cc241d'
 color_yellow = '#d79921'
 
 [palettes.catppuccin_mocha]
-color_fg0 = '#313244'  # Text
-color_fg1 = '#cdd6f4'  # Text
-color_bg1 = '#313244'  # Surface0
-color_bg3 = '#45475a'  # Surface1
-color_blue = '#89b4fa'  # Blue
-color_aqua = '#94e2d5'  # Teal
+color_fg0 = '#313244'    # Text
+color_fg1 = '#cdd6f4'    # Text
+color_bg1 = '#313244'    # Surface0
+color_bg3 = '#45475a'    # Surface1
+color_blue = '#89b4fa'   # Blue
+color_aqua = '#94e2d5'   # Teal
 color_green = '#a6e3a1'  # Green
-color_orange = '#fab387'  # Peach
-color_purple = '#cba6f7'  # Mauve
-color_red = '#f38ba8'  # Red
-color_yellow = '#f9e2af'  # Yellow
+color_orange = '#fab387' # Peach
+color_purple = '#cba6f7' # Mauve
+color_red = '#f38ba8'    # Red
+color_yellow = '#f9e2af' # Yellow
 
 [os]
 disabled = false
