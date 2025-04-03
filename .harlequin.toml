@@ -1,0 +1,7 @@
+default_profile = "dev"
+[profiles.dev]
+adapter = "odbc"
+theme = "catppuccin-mocha"
+limit = 1000
+keymap_name = ["vscode"]
+conn_str = ["$ODBC"]
