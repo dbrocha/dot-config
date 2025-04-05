@@ -1,6 +1,0 @@
-database = []
-
-[application]
-DefaultPageSize = 300
-DisableSidebar = false
-SidebarOverlay = false

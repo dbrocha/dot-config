@@ -11,6 +11,7 @@ set -x EDITOR nvim
 set -gx SHELL (which fish)
 
 starship init fish | source
+zoxide init fish | source
 
 # uv
 fish_add_path "/home/azureuser/.local/bin"
