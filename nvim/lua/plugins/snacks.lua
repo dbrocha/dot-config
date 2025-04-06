@@ -6,7 +6,7 @@ return {
             sections = {
                 {
                     section = "terminal",
-                    cmd = "chafa ~/.config/handsome_squidward.png --format symbols --symbols vhalf --size 60x17 --stretch; sleep .1",
+                    cmd = "chafa ~/.config/handsome_squidward.png --format symbols --symbols vhalf --size 40x40; sleep .1",
                     height = 17,
                     padding = 1,
                 },
