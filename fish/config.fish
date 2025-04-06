@@ -12,6 +12,7 @@ set -gx SHELL (which fish)
 
 starship init fish | source
 zoxide init fish | source
+thefuck --alias | source
 
 function y
     set tmp (mktemp -t "yazi-cwd.XXXXXX")
