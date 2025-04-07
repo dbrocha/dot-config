@@ -23,7 +23,7 @@ aliases = { "eus2-prd-cradle-vm12" = "azml" }
 style = "bold italic rosewater"
 
 [python]
-format = "[\ue73c $virtualenv ](dimmed italic sapphire)"
+format = "[$virtualenv ](dimmed italic sapphire)"
 
 [palettes.catppuccin_frappe]
 rosewater = "#f2d5cf"
