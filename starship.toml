@@ -9,10 +9,8 @@ $git_commit\
 $git_state\
 $git_metrics\
 $git_status\
-$line_break\
 $python\
-$jobs\
-$battery\
+$line_break\
 $time\
 $status\
 $os\
