@@ -1,4 +1,5 @@
 source ~/.config/fish/alias.fish
+fish_add_path "/opt/homebrew/bin"
 
 set fish_greeting
 
@@ -22,4 +23,3 @@ function y
     end
     rm -f -- "$tmp"
 end
-fish_add_path "/home/azureuser/.local/bin"
