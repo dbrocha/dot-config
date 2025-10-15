@@ -1,22 +1,9 @@
 return {
-    {
-        "catppuccin/nvim",
-        lazy = false,
-        name = "catppuccin",
-        priority = 1000,
+  { "catppuccin/nvim" },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "catppuccin-frappe",
     },
-    -- { "ellisonleao/gruvbox.nvim" },
-    -- {
-    --     "folke/tokyonight.nvim",
-    --     lazy = false,
-    --     priority = 1000,
-    --     opts = {},
-    -- },
-    {
-        "LazyVim/LazyVim",
-        opts = {
-            colorscheme = "catppuccin-frappe",
-            -- colorscheme = "gruvbox",
-        },
-    },
+  },
 }

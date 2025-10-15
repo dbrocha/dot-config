@@ -7,7 +7,7 @@ abbr vv "source .venv/bin/activate.fish; envsource .env"
 
 # dbt aliases
 abbr --add dbs dbt build --select
-abbr --add dbtyml --set-cursor "dbt run-operation generate_model_yaml --args '{"model_names": [\"%\"]}' -q > models/out.txt"
+abbr --add dbtyml --set-cursor "dbt run-operation generate_model_yaml --args '{"model_names": [\"%\"], "upstream_descriptions": "True", "include_data_types": "False"}' -q > models/out.txt"
 
 # ruff
 abbr --add rcf ruff check --fix

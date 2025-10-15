@@ -23,3 +23,7 @@ function y
     end
     rm -f -- "$tmp"
 end
+fish_add_path /Users/qxn9003/.local/bin
+
+# dbt aliases
+alias dbtf=/Users/qxn9003/.local/bin/dbt
